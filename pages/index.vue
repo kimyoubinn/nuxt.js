@@ -10,6 +10,7 @@
 
         <vue-modal
             v-show="isModalVisible"
+            dim-color="rgba(0, 0, 0, 0.5)"
             @close="handleCloseModal">
             <template #title>title area</template>
             <template #content>content area content area content area content area content area content area content area content area</template>
